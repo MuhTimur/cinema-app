@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CinemaApp</string>
+    <string name="rating_text">Rating:</string>
+    <string name="year_text">Year:</string>
+    <string name="genres">Genres:</string>
+    <string name="films">Films:</string>
+</resources>

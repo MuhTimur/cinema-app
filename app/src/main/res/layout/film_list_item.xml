@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginStart="1dp"
+            android:id="@+id/filmImageView"
+            app:srcCompat="@drawable/ic_no_image"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            tools:text="Title"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:id="@+id/nameTextView"
+            android:background="@color/colorPrimaryAlpha"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_alignBottom="@+id/filmImageView"
+            android:layout_alignLeft="@+id/filmImageView"
+            android:layout_alignStart="@+id/filmImageView"
+            android:layout_alignRight="@+id/filmImageView"
+            android:layout_alignEnd="@+id/filmImageView"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"/>
+</RelativeLayout>
